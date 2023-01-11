@@ -1,0 +1,7 @@
+## Volatility Room - TryHackMe ###
+
+### Q1 - What is the build version of the host machine in Case 001? ###
+```2600.xpsp.080413-2111``` run ```python3 vol.py -f /Scenarios/Investigations/Investigation-1.vmem windows.info``` The answer will be in this information.
+![Question1](https://user-images.githubusercontent.com/18509521/211746435-9eceb97b-7144-498b-8771-59b91a7d3ba2.png)
+
+### Q2 - At what time was the memory file acquired in Case 001? ###
