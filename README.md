@@ -23,6 +23,7 @@
 
 ### Q7 - What user-agent was employed by the adversary in Case 001? ###
 ```Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)``` Run the command ```python3 vol.py -f /Scenarios/Investigations/Investigation-1.vmem -o /tmp/dump windows.memmap --pid 1640 --dump``` This is dumping the suspicious process which will make it searchable to us. After it has been dumped run strings on the process and grep the user agent.
+
 ![useragent](https://user-images.githubusercontent.com/18509521/211750739-567803cc-db05-4141-aaec-9e7ae1c76995.png)
 
 ### Q8 - Was Chase Bank one of the suspicious bank domains found in Case 001? (Y/N) ###
